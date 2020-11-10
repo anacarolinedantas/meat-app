@@ -56,7 +56,7 @@
             <input 
               type="text" 
               class="form-control" 
-              name="optional" 
+              name="optionalAdrress" 
               ngModel 
               placeholder="Complemento" 
               autocomplete="off"/>
@@ -83,10 +83,10 @@
           <p class="lead">Formas de Pagamento:</p>
           <div class="form-group">
             <mt-radio 
-            [options]="paymentOptions" 
-            name="paymentOption" 
-            ngModel
-            required
+              [options]="paymentOptions" 
+              name="paymentOption" 
+              ngModel
+              required
             ></mt-radio>
           </div>
         </div>
@@ -107,11 +107,13 @@
       <div class="col-xs-12">
         <button 
           class="btn btn-success pull-right" 
+          (click)="checkOrder(form.value)"
           [disabled]="!form.valid || cartItems().length === 0">
           <i class="fa fa-credit-card"></i>
           Concluir Pedido
         </button>
       </div>
     </div>
+
   </section>
 </section>
