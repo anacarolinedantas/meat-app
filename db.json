@@ -387,6 +387,27 @@
         }
       ],
       "id": 1
+    },
+    {
+      "address": "Av. Rui Barbosa",
+      "number": "37",
+      "optionalAdrress": "",
+      "paymentOption": "DEB",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "cup-cake"
+        },
+        {
+          "quantity": 1,
+          "menuId": "donut"
+        },
+        {
+          "quantity": 1,
+          "menuId": "bread"
+        }
+      ],
+      "id": 2
     }
   ]
 }
