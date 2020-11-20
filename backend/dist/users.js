@@ -16,6 +16,6 @@ var User = /** @class */ (function () {
 }());
 exports.User = User;
 exports.users = {
-    "carol@gmail.com": new User('carol@gmail.com', 'Carol', 'carol123'),
-    "ana@gmail.com": new User('ana@gmail.com', 'Ana', 'ana123')
+    "juliana@gmail.com": new User('juliana@gmail.com', 'Juliana', 'juliana23'),
+    "amanda@gmail.com": new User('amanda@gmail.com', 'Amanda', 'amanda21')
 };
