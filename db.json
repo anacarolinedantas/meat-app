@@ -389,6 +389,26 @@
         }
       ],
       "id": 2
+    },
+    {
+      "name": "Juliana",
+      "email": "juliana@gmail.com",
+      "emailConfirmation": "juliana@gmail.com",
+      "address": "Av. Rui Barbosa",
+      "number": "37",
+      "optionalAddress": "",
+      "paymentOption": "MON",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "cup-cake"
+        },
+        {
+          "quantity": 1,
+          "menuId": "donut"
+        }
+      ],
+      "id": 3
     }
   ]
 }
